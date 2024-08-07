@@ -89,17 +89,17 @@ try {
         <br>
         <?php
         // For Debugging
-        echo "<pre>";
-        echo "<br>";
-        if ($status_info['status'] == 'Running') {
-            echo "Debugging Area: For Admin Only...";
-            echo "<br>";
-            echo "Running - " . "Port: " . $status_info['port'] . " | " . "Password: " . $status_info['password']  . " | " . "User: " . $status_info['user'];
-        } else {
-            echo "Debugging Area: For Admin Only...";
-        }
-        echo "<br>";
-        echo "<br>";
+        // echo "<pre>";
+        // echo "<br>";
+        // if ($status_info['status'] == 'Running') {
+        //    echo "Debugging Area: For Admin Only...";
+        //    echo "<br>";
+        //    echo "Running - " . "Port: " . $status_info['port'] . " | " . "Password: " . $status_info['password']  . " | " . "User: " . $status_info['user'];
+        // } else {
+        //    echo "Debugging Area: For Admin Only...";
+        // }
+        // echo "<br>";
+        // echo "<br>";
         // print_r($status_output);
         // echo "<br>";
         // print_r($userdetails);
